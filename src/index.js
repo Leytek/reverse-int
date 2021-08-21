@@ -1,3 +1,1 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = reverse = n => +n.toString().split('').reverse().filter(c => c !== '-').join('')
